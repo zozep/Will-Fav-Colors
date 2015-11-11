@@ -1,6 +1,7 @@
 #list {
+	margin: 30px;
 	height: 80px;
-	width: 210px;
+	width: 230px;
 	border: 3px dashed pink;
 	font-size: 25px;
 	font-family: "Serif";
