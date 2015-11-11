@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8"/>
+        <title>This is my website</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var color = $('#list').value();
+                    $('body').css('background'),color);
+
+            $('#list').change(function(){
+                var color = $('#list').value();
+                    $('body').css('background',color);
+               });
+            });
+        </script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/> 
+
+	</head>
+
+	<body>
+        <select name='colors' id='list'>
+            <option value="#CC2EFA">Will's Fav color</option>
+            <option value="#BF00FF">Will's 2nd fav</option>
+            <option value="#F781F3">Will's 3rd fav</option>
+            <option value="#FE2EC8">Will's 4th fav</option>
+            <option value="#FE2EC8">Will's 5th fav</option>
+            <option value="#FA58D0">Will's 6th fav</option>
+            <option value="#F5A9A9">Will's 7th fav</option>
+        </select>
+	</body>
+</html>
